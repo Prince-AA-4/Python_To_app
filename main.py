@@ -18,4 +18,4 @@ while True:
         print("Goodbye....")
         exit()
     else:
-        print("wrong option")
+        print("wrong entry")
