@@ -25,7 +25,7 @@ while True:
                 task_number = int(input("Enter task number to edit:\n"))
                 new_todo = input("Enter new to-do:\n")
                 todos[task_number - 1] = new_todo
-                print(f"Task {task_number} has been edited")
+                print(f"Task {task_number} has been updated successfully")
             except (ValueError, IndexError):
                 print("Invalid task number")
     elif user_option=="4":
